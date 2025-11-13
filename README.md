@@ -9,5 +9,20 @@ Please be patient!
 ## Timeline
 <img src="images/isteresi.png" alt="Esempio di immagine" width="300"/>  
 -->
+## 1) An Image is worth a 16 x 16 words
+The first attempt of applying the attention mechanism to image inputs is not the DETR but the Vision Transformer
+proposed by Dosovitskiy et al. [^fn1].  
+Here we simply describe the main idea of the model.
+<img src="(https://github.com/google-research/vision_transformer/blob/main/vit_figure.png)" alt="ViT overview" width="300"/>  
 
 
+
+
+
+
+
+[^fn1]: Dosovitskiy, A., Beyer, L., Kolesnikov, A., Weissenborn, D., Zhai, X., Unterthiner, T., Dehghani, M., Minderer, M., Heigold, G., Gelly, S., Uszkoreit, J., & Houlsby, N. (2021). *An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale*. arXiv preprint [arXiv:2010.11929](https://arxiv.org/abs/2010.11929)
+
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2010.11929}, 
+}
