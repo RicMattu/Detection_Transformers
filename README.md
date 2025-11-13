@@ -4,3 +4,10 @@ Starting from my thesis, I will make a small compendium of attention mechanisms 
 
 
 Please be patient!
+
+<!--
+## Timeline
+<img src="images/isteresi.png" alt="Esempio di immagine" width="300"/>  
+-->
+
+
