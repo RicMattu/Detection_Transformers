@@ -72,7 +72,11 @@ for i in range(patches.shape[0]):
 # 1 1 -> 1*2+1 = 3)
 ```
 
-
+Tutto il blocco precedente può essere fatto in modo più sintetico usando reshape con questa sintassi:
+```python
+IMG = patches.reshape(-1, p, p)
+```
+infatti la dimensione in posizione -1 viene calcolata in automatico. 
 ```python
 fig, axes = plt.subplots(patches.shape[0], patches.shape[1], figsize=(3*patches.shape[0], 3*patches.shape[1]))
 
